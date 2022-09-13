@@ -1,0 +1,157 @@
+*{
+    box-sizing:border-box;
+    padding: 0%;
+    margin: 0%;
+}
+/*Style the body*/
+body {
+    font-family: oswald;
+    margin:0%;
+    background-color:white ;
+    background-size:cover;
+    text-decoration: none;
+}
+/*Header-logo or title*/
+.header{
+    padding:80px;
+    background-image: url('header 2.jpeg');
+    background-size: cover;
+    
+}
+
+.headerT{
+    color: aliceblue;
+}
+.button{
+    display: flex;
+    justify-content:center;
+    
+    font-family: sans-serif;
+    color: rgb(63, 40, 121);
+}
+
+.navbar{
+    display: flex;
+text-align: center;}
+
+
+/*style navigaion bar links*/
+.navbar ul {
+    display: flex;
+   
+    list-style: none;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: center;
+ 
+}
+
+.navbar ul li{
+    width:120px;
+    margin: 15px;
+    Padding: 15px;
+    position: relative;
+}
+
+.navbar ul li a
+{text-decoration: none;
+    color:rgb(12, 10, 50);
+    background-color: ;
+font-size: 150%;
+padding: 22px 14px;}
+
+
+/*change color on hover*/
+.navbar ul li :hover {
+   
+    color:rgb(11, 36, 54);
+    background-color: hsl(0, 0%, 98%);
+    border-radius: 12px;
+    border-color: black;
+    padding: 8px 8px;
+    text-decoration: none;
+
+}
+.navbar ul li ul {
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+
+
+}
+.navbar ul li ul li a:{
+    
+    padding: 22px 14px;
+
+}
+
+
+
+
+   
+.navbar ul li ul li a:hover{
+    
+    background-color: aliceblue;
+    
+    border-color: black;
+    
+}
+
+@media screen and (min-device-width: 1200px) 
+ {
+    *{
+        flex-direction: column;
+        font-size: 12px;
+        display: list-item;
+    }
+}
+    
+
+/*left column*/
+.left{
+    flex:30%;
+    background-color: rgb(113, 113, 113);
+    padding: 20px;
+}
+/*left column*/
+.welcome{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    
+}
+
+/*image placeholder*/
+.imgph{
+    background-color: rgb(252, 243, 245);
+    width: 100%;
+    height: 60px;
+    padding:20px;
+    margin: 0%;
+}
+/*taller image placeholer*/
+.imgph2{
+    background-color: beige;
+    width: 50%;
+    height: 100px ;
+    padding: 20px;
+}
+
+
+label{
+    display: block;
+}
+
+form div{
+    margin-bottom: 10px;
+}
+/*footer*/
+.footer{
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+   
+}
+
